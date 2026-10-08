@@ -1,24 +1,30 @@
 {
   "expo": {
-    "name": "scamcheck",
+    "name": "ScamCheck",
     "slug": "scamcheck",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#f7f7f5",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.codebeastai.scamcheck"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e6bfb48b-d802-402d-a31c-ec3407daba72"
+      }
     }
   }
 }
